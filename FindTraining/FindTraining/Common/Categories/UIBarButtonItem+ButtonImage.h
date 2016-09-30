@@ -7,9 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <objc/runtime.h>
 
-//typedef void(^targetBlock)(NSInteger tag);
 typedef void (^Callback)();
 
 @interface UIBarButtonItem (ButtonImage)

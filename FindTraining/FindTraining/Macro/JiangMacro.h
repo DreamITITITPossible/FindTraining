@@ -45,7 +45,6 @@ static NSString *const kUMengChannelId = @"App Store";
 static NSString *const baseURL = @"http://www.51zhaolian.cn";
 // base key
 static NSString *const key_API = @"wech_app2015_en";
-
-
+static NSString *const credential = @"2JCBm7HOLVbxjv3OLuRIWQnmQjWFkkCs5Vofbvv02SPld9gXkymN6kOJxxgjZg6ofvgFtctffjsmojpUd5y5rPVCNhMnSeIHTdecTbxwKrHxFWvFj2DPhNX1eH3JZed0oWNDvDdUnGjir2c4roOOchrRJVcYg2mQfmi74BBamVwOEOSB9d6tXJ6mtqkWRx1cABgSwUOXAJgSIsJh4DWS52YMGeh9vUhDhPmuvFvm6P87MM0";
 
 #endif /* JiangMacro_h */

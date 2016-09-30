@@ -36,7 +36,7 @@
 #import "UILabel+SizeToFit_W_H.h"
 #import "UIView+ShowMessage.h"
 #import "UIBarButtonItem+ButtonImage.h"
-
+#import "UIImage+Categories.h"
 
 
 #endif /* Jiang_pch */

@@ -8,7 +8,6 @@
 
 #import "UIView+ShowMessage.h"
 
-
 @implementation UIView (ShowMessage)
 +(void)showMessage:(NSString *)message
 {
@@ -32,7 +31,7 @@
     label.textAlignment = 1;
     label.backgroundColor = [UIColor clearColor];
     [showview addSubview:label];
-    showview.frame = CGRectMake((SCREEN_WIDTH - width - 20)/2, SCREEN_HEIGHT / 2 + 100, width + 20, 25);
+    showview.frame = CGRectMake((SCREEN_WIDTH - width - 20) / 2, SCREEN_HEIGHT / 2 + 100, width + 20, 25);
     [UIView animateWithDuration:2 animations:^{
         showview.frame = CGRectMake((SCREEN_WIDTH - width - 20)/2, SCREEN_HEIGHT / 2 + 70, width + 20, 25);
         showview.alpha = 0;
